@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% 
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template slightly modified by Misrab Faizullah-Khan
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Misrab M.} % Your first name
+\familyname{Faizullah-Khan} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{	\normalfont{misrab.me}}
+% \address{7 Chiltern Drive}{Singapore, 359724}
+% \mobile{+65 961 88 328}
+% TEMP HIDE PERSONAL
+
+
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{faizullah.misrab@gmail.com}
+\homepage{misrab.me}{\textbf{misrab.me}} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{github.com/misrab}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+%\cventry{2008--2013}{STANFORD UNIVERSITY}{}{}{}{}
+%\subsection{STANFORD UNIVERSITY}
+
+
+\cventry{2008-2013}{STANFORD UNIVERSITY}{}{}{}{}
+\cventry{}{\normalfont{\textit{M.S. Management Science \& Engineering: Artificial Intelligence}}}{}{}{}{}
+\cventry{}{\normalfont{\textit{B.A. Economics, Minor Computer Science}}}{}{}{}{}
+
+
+\cventry{2004--2006}{UNITED WORLD COLLEGE OF SOUTH EAST ASIA}{}{}{}{}
+\cventry{}{\normalfont{\textit{International Baccalaureate (IB) Diploma}}}{}{}{}{
+\begin{itemize}
+\item Total score: 44/45
+\item Extra subject: Further Mathematics
+\item National Youth Achievement Award, Economist of the Year, Journalist of the Year
+\end{itemize}}
+
+
+% Arguments not required can be left empty
+%\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
+
+\section{COURSEWORK \& LEARNING}
+
+\cvitem{Technical}{Machine Learning, Databases, Convex Optimisation, Computer Networking, Cryptocurrency \& Blockchain}
+\cvitem{Operations}{Technology Strategy, Accounting, Operations Research}
+\cvitem{Projects}{Neural network that identified spoken languages; Youtube
+channel ranking system; Online auction mechanism design and more}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SKILLS}
+
+\cvitem{Programming}{Proficient in C, Rust, Java, Golang, Python, Javascript}
+\cvitem{Mobile/Web}{HTML, CSS, Node, d3, React, common frameworks}
+\cvitem{Databases}{Hands-on experience with SQL, MongoDB, Hadoop, Hive, graph databases and distributed systems fundamentals}
+\cvitem{Languages}{Written and spoken English, French (native), Mandarin, Urdu, Hindi, Italian (advanced), Turkish, Portuguese, Indonesian (intermediate)}
+\cvitem{Interests}{Classical and jazz guitar, piano, long-distance running, garage engineering, modern history}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{WORK}
+
+
+\cventry{Dec '16--present}{TECH PIONEERING}{VP of Data Science}{\textsc{Go-jek}}{Singapore}{
+\begin{itemize}
+\item Go-jek is Indonesia's first tech unicorn (going decacorn). Uber for motorcycles, and so much more. As of November '17, we had 600k drivers, 100k merchants, and were doing millions of orders on our platform every day
+\item I help facilitate a rapidly growing team of almost thirty data scientists and engineers, across three countries
+\item Projects include surge pricing, smart allocation, anomaly detection, recommendation systems and more
+\end{itemize}
+}
+
+
+\cventry{Jul '16--Dec '16}{BLOCKCHAIN}{Cohort Member}{\textsc{Entrepreneur First}}{Singapore}{
+\begin{itemize}
+\item Intensive entrepreneurial bootcamp. Learnt a ton about customer validation, product iteration, rapid development. Also had loads of fun
+\end{itemize}
+}
+
+\cventry{Jan '16--Jan '17}{DATA SCIENCE TEACHING}{Data Science Instructor}{\textsc{General Assembly}}{Singapore}{
+\begin{itemize}
+\item Taught part-time data science to dozens of brilliant adult professionals alongside two teaching assistants
+\item Official Net Promoter Score of 90 (Beyond "Excellent")
+\item Topics included:K-Nearest Neighbours, Naïve Bayes, Regularisation, Logistic Regression, K-Means Clustering, 
+Ensemble Techniques, Decision Trees and Random Forests, SVMs, Dimensionality Reduction, 
+Recommendation Systems, Database Technologies, Network Analysis
+\end{itemize}}
+
+
+
+\cventry{May '15--May '16}{CLIENT \& BIG DATA}{Senior Optimisation Specialist \& Data Scientist}{\textsc{TripAdvisor}}{Singapore}{
+\begin{itemize}
+\item Key role in designing and developing an algorithm from scratch that made more than 5 million auction bids a day, accounting for approx. US\$50 million of revenue a year
+\item Highly technical client-facing role. Worked in small distributed team on some of
+the toughest data and auction related challenges at TripAdvisor
+\item Optimised clients' bidding strategies on the advertising auction. Designed, implemented
+and maintained scalable big data infrastructure
+\end{itemize}}
+
+
+\cventry{April '15}{PROJECT CONTRACT}{Data Engineer}{\textsc{Nugit}}{Singapore}{
+\begin{itemize}
+\item Built an NLP agent on Slack that could respond to plain-English user queries, interactively. "Nugbot" would parse natural language, issue complex asynchronous 
+API requests, and respond appropriately
+\end{itemize}}
+
+\cventry{Jun--Sep '14}{BIG DATA}{Data Scientist}{\textsc{VISA Labs}}{Singapore}{
+\begin{itemize}
+\item Helped maintain a pipeline of prototypes leveraging emerging technologies. Hands-on experience with major big data tools ranging from Spark to d3.js visualisation
+\item Worked in a team of almost exclusively PhDs, from whom I learnt tremendous amounts
+\item Planned and ran daily analytics on terabytes of data
+\end{itemize}}
+
+\cventry{Sep--Mar '14}{CONVEX OPTIMISATION}{Programmer}{\textsc{Stanford Engineering}}{}{
+\begin{itemize}
+\item Had the honour of working under Prof. Stephen Boyd, contributing to the
+development of a python version of the 'cvx' convex optimisation library
+\end{itemize}}
+
+
+
+\end{document}
